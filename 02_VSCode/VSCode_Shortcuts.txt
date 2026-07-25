@@ -1,0 +1,19 @@
+To cancel a running command (in case we started very long commands)
+- ctrl + c
+
+To select all the terminal text
+- ctrl + a
+
+To copy the text
+- ctrl + shift + c
+
+To paste the text
+- ctrl + v
+
+To open any file by typing the name
+- ctrl + p
+
+To save the file at any moment
+- ctrl + s
+
+

@@ -1,0 +1,30 @@
+The first thing you should always know is: Where am I?
+- pwd (Printing Working Directory)
+
+To check what is inside this folder, we can eaither use
+- ls or - dir
+
+To chance folder, we will use 
+- cd <name of the folder>
+
+And to go back one folder, we can simply use
+- ..
+
+To create a folder (directory), we use
+- mkdir <name of the folder>
+
+To create a file in the directory, we use
+- New-Item <name of the file> or - ni <name of the file>
+
+To delete a file we use
+- del <name of the file>
+
+To delete a folder (directory), we use (only works if folder is empty)
+- rmdir <name of the folder>
+
+To rename a something, we use
+- ren <oldname> <newname>
+
+To clear the terminal we use
+- cls
+
