@@ -1,4 +1,4 @@
-# Week 1 - Introduction to Python
+# Day 1 - Introduction to Python
 
 ---
 
@@ -52,7 +52,7 @@ It is used for:
 
 - hello.py - Contains the first python program where we write the first few lines and run them from the terminal.
 - syntax.py - Contain all the theory behind indentation, variables, statements, comments and numbers that are covered in this week.
-- examples.py This is a file with all the examples from this chapter designed to test your understanding. 
+- excercises.py This is a file with all the examples from this chapter designed to test your understanding. 
 
 
 
