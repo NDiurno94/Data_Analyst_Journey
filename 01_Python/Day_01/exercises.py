@@ -24,6 +24,9 @@ Each sentence should appear on a separate line.'''
 
 # Write your code here:
 
+print("Hello, World!")
+print("I am learnig Python")
+print("This is my first Python exercise")
 
 
 # ============================================================
@@ -43,7 +46,9 @@ Make sure the statements are written in the correct order.'''
 
 # Write your code here:
 
-
+print("Step 1: Start")
+print("Step 2: Running")
+print("Step 3: Finish")
 
 # ============================================================
 # EXERCISE 3 - MULTIPLE STATEMENTS
@@ -62,7 +67,7 @@ Day 1
 
 # Write your code here:
 
-
+print("Learning Python"); print("Day 1")
 
 # ============================================================
 # EXERCISE 4 - INDENTATION
@@ -78,8 +83,8 @@ Remember that code belonging to the if statement must be
 properly indented.'''
 
 if 10 > 5:
-    # Write your code here:
-    pass
+    print("Ten is greater that five")   # Write your code here:
+    pass                                # We can remove this line once we add our code above. It is only here to prevent an IndentationError.
 
 
 
@@ -97,7 +102,7 @@ Both statements are inside the block
 Both statements must belong to the same indented block.'''
 
 if 20 > 10:
-    # Write your code here:
+    print("Python is running"); print("Both statements are inside the block")  # Write your code here:
     pass
 
 
@@ -116,7 +121,13 @@ Then print each variable separately.'''
 
 # Write your code here:
 
+name = "Nicola"
+age = 25
+height = 1.70
 
+print(name)
+print(age)
+print(height)
 
 # ============================================================
 # EXERCISE 7 - VARIABLES AND TEXT
@@ -137,7 +148,10 @@ writing "Python" and 1 directly in the sentences.'''
 
 # Write your code here:
 
+language = "Python"
+day = 1
 
+print()
 
 # ============================================================
 # EXERCISE 8 - PYTHON NUMBERS

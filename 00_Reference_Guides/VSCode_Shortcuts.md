@@ -9,6 +9,8 @@ A collection of the keyboard shortcuts I use most often while working in Visual 
 | `Ctrl + S` | Save the current file |
 | `Ctrl + P` | Quickly open a file by typing its name |
 | `Ctrl + Shift + P` | Open the Command Palette |
+| `Ctrl + ,` | Open VS Code Settings |
+| `Ctrl + Space` | Manually show code suggestions |
 | `Ctrl + Shift + V` | Open Markdown Preview |
 | `Ctrl + K`, then `V` | Open Markdown Preview in Split View |
 | `Ctrl + Shift + C` | Copy selected terminal text |
