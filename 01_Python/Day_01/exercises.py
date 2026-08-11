@@ -76,6 +76,7 @@ properly indented.'''
 
 if 10 > 5:
     # Write your code here:
+    pass
 
 
 
@@ -93,8 +94,8 @@ Both statements are inside the block
 Both statements must belong to the same indented block.'''
 
 if 20 > 10:
-    # Write your code here:
-
+    #Write your code here:
+    pass
 
 
 # ============================================================
