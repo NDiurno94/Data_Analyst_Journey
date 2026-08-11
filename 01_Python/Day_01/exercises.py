@@ -151,7 +151,8 @@ writing "Python" and 1 directly in the sentences.'''
 language = "Python"
 day = 1
 
-print()
+print("I am learning", language)
+print("This is day", day)
 
 # ============================================================
 # EXERCISE 8 - PYTHON NUMBERS
@@ -167,6 +168,9 @@ Use the numbers directly inside print().'''
 
 # Write your code here:
 
+print(10)
+print(-7)
+print(3.14)
 
 
 # ============================================================
@@ -187,7 +191,10 @@ numbers. Let Python perform the calculations.'''
 
 # Write your code here:
 
-
+print(10 + 5)
+print(10 * 5)
+print(20 + 10)
+print(7 * 3)
 
 # ============================================================
 # EXERCISE 10 - TEXT AND MATHEMATICS
@@ -203,7 +210,8 @@ print() statements.'''
 
 # Write your code here:
 
-
+print("The sum of 10 and 5 is:", 10 + 5)
+print("The product of 4 and 5 is:", 4 * 5)
 
 # ============================================================
 # EXERCISE 11 - THE END PARAMETER
@@ -220,7 +228,8 @@ Use end=" " so that both words appear on the SAME line.'''
 
 # Write your code here:
 
-
+print("Hello", end=" ")
+print("World!")
 
 # ============================================================
 # EXERCISE 12 - FIND THE INDENTATION ERROR
@@ -239,7 +248,8 @@ print("Five is greater than two")
 
 # Write the corrected code here:
 
-
+if 5 > 2:
+    print("Five is greater than two")
 
 # ============================================================
 # EXERCISE 13 - FINAL DAY 1 CHALLENGE
@@ -264,6 +274,21 @@ Try to complete this exercise without looking at the theory
 files.'''
 
 # Write your code here:
+
+my_name = "Nicola"
+my_age = 32
+language = "Python"
+
+print(my_name)
+print(my_age)
+print(language)
+print("My age + 10 is equal to", age + 10)
+if 20 < 10:
+    print("20 is not larger than 10")
+else:
+    print("20 is larger than 10")
+
+
 
 
         
