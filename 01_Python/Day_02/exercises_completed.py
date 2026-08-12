@@ -24,7 +24,15 @@ Print all four variables separately below.'''
 
 # Write your code here:
 
+name = "Nicola"
+age = 32
+height = 1.70
+learning_python = True
 
+print("My name is", name)
+print("My age is", age)
+print("My height is", height)
+print("I am learning Python", True)
 
 # ============================================================
 # EXERCISE 2 - CHECKING DATA TYPES
@@ -37,6 +45,10 @@ Before running the program, try to predict what each type will be.'''
 
 # Write your code here:
 
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(learning_python))
 
 
 # ============================================================
@@ -53,7 +65,12 @@ Finally, change score to the string "Excellent" and print it again.'''
 
 # Write your code here:
 
-
+score = 10
+print(score)
+score = 25
+print(score)
+score = "Excellent"
+print(score)
 
 # ============================================================
 # EXERCISE 4 - CASTING
@@ -69,6 +86,12 @@ Finally, change score to the string "Excellent" and print it again.'''
 
 # Write your code here:
 
+number = "50"
+print(type(number))
+number = int("50")
+print(type(number))
+number = float(50)
+print(number, type(number))
 
 
 # ============================================================
@@ -82,16 +105,18 @@ Do NOT uncomment the invalid ones.
 Create the valid variables and assign any value to them.
 
 first_name
-2nd_name
-my-age
+2nd_name - no good
+my-age - no good
 country2
 _my_variable
-my variable
+my variable - no good
 MY_SCORE'''
 
 # Write your code here:
-
-
+first_name = "a"
+country2 = "b"
+_my_variable = "c"
+MY_SCORE = "d"
 
 # ============================================================
 # EXERCISE 6 - MULTIPLE ASSIGNMENT
@@ -106,7 +131,8 @@ drink = "Water"
 Then print all three variables using ONE print() function.'''
 
 # Write your code here:
-
+fruit, vegetable, drink = "Apple", "Carrot", "Water"
+print(fruit, vegetable, drink)
 
 
 # ============================================================
@@ -124,7 +150,11 @@ information = ["Italy", "Rome", "Italian"]
 
 # Write your code here:
 
+country, city, language = information
 
+print(country)
+print(city)
+print(language)
 
 # ============================================================
 # EXERCISE 8 - STRING CONCATENATION
@@ -143,7 +173,24 @@ Remember that you need a space between the two names.'''
 
 # Write your code here:
 
+first_name = "Nicola "
+last_name = "Diurno"
 
+print(first_name + last_name)
+
+# or you can also do it like this:
+
+first_name_2 = "Nicola"
+last_name_2 = " Diurno"
+
+print(first_name_2 + last_name_2)
+
+# or another way also:
+
+first_name_3 = "Nicola"
+last_name_3 = "Diurno"
+
+print(first_name_3 + " " + last_name_3)
 
 # ============================================================
 # EXERCISE 9 - DIFFERENT DATA TYPES
@@ -165,7 +212,10 @@ age = 32
 
 # Write your code here:
 
+age = str(32)
 
+print(name, "is " + age, "years old")
+print(name, "is" + "", age, "years old")
 
 # ============================================================
 # EXERCISE 10 - GLOBAL AND LOCAL VARIABLES
@@ -189,8 +239,8 @@ show_word()
 print(word)
 
 # Write your predicted outputs here as comments:
-# Output 1:
-# Output 2:
+# Output 1: "Variables" - local variable in the function
+# Output 2: "Python" - global variable
 
 
 # ============================================================
@@ -211,7 +261,8 @@ status = "Learning"
 
 
 def change_status():
-    # Write your code inside the function:
+    global status
+    status = "Completed" # Write your code inside the function:
     pass
 
 
@@ -248,3 +299,17 @@ Requirements:
 Try to complete this without looking at your previous files.'''
 
 # Write your code here:
+
+a = "Nicola"
+b = "Diurno"
+c = 32
+d = 1.70
+e = True
+
+c = str(32)
+d = str(1.70)
+e = str(True)
+
+print("My name is", a + " " + b, "I am", c, "years old and my height is", d, "metres")
+
+print(type(a), type(b), type(c), type(d), type(e))
