@@ -1,114 +1,127 @@
 # ============================================================
-# VARIABLE NAMES IN PYTHON
+# OUTPUT VARIABLES IN PYTHON
 # ============================================================
 
-'''In Python, variable names can contain letters, numbers and
-underscores (_).
+"""Python uses the print() function to display values on the screen.
 
-Variable names can be short, but descriptive names are usually
-better because they make the code easier to understand.
+You can print text, numbers, variables, or multiple values together."""
 
-Here are some examples of valid variable names:'''
+name = "Nicola"
+age = 32
 
-myvar = "John"
-my_var = "John"
-_my_var = "John"
-myVar = "John"
-MYVAR = "John"
-myvar2 = "John"
-
-'''These are all valid variable names in Python.
-You can print their values using the print() function:'''
-
-print(myvar)
-print(my_var)
-print(_my_var)
-print(myVar)
-print(MYVAR)
-print(myvar2)
+print(name)
+print(age)
 
 
 # ============================================================
-# RULES FOR NAMING VARIABLES
+# PRINTING MULTIPLE VARIABLES
 # ============================================================
 
-'''There are some important rules to follow when naming variables
-in Python:
+"""You can print multiple variables in the same print() function
+by separating them with commas.
 
-- A variable name must start with a letter or an underscore (_).
-- A variable name cannot start with a number.
-- A variable name can only contain letters, numbers and underscores.
-- Variable names cannot contain spaces or hyphens.
-- Variable names are case-sensitive.'''
+Python automatically adds a space between the values."""
 
-# The following examples are INVALID and are kept as comments
-# so that they do not stop the program from running.
+first_name = "Nicola"
+last_name = "Diurno"
 
-# 2myvar = "John"    # Invalid: cannot start with a number
-# my-var = "John"    # Invalid: cannot contain a hyphen
-# my var = "John"    # Invalid: cannot contain a space
-
-'''If these lines were uncommented, Python would raise a
-SyntaxError and the program would not run.'''
+print(first_name, last_name)
 
 
 # ============================================================
-# MULTI-WORD VARIABLE NAMES
+# ADDING NUMBERS
 # ============================================================
 
-'''When a variable name contains multiple words, there are several
-ways to format it.
+"""When the + operator is used with numbers, Python performs
+mathematical addition."""
 
-Some common naming styles are:'''
+x = 10
+y = 5
 
-my_variable_name = "John"    # snake_case
-myVariableName = "John"      # camelCase
-MyVariableName = "John"      # PascalCase
-MY_VARIABLE_NAME = "John"    # UPPER_CASE
-
-print(my_variable_name)
-print(myVariableName)
-print(MyVariableName)
-print(MY_VARIABLE_NAME)
-
-'''These are all valid variable names.
-
-In Python, snake_case is the standard naming convention for
-regular variables and is the style you will use most often.'''
+print(x + y)    # Output: 15
 
 
 # ============================================================
-# ASSIGN MULTIPLE VALUES TO MULTIPLE VARIABLES
+# STRING CONCATENATION
 # ============================================================
 
-'''Python allows you to assign multiple values to multiple
-variables in a single line.
+"""When the + operator is used with strings, Python joins the
+strings together.
 
-The number of variables must match the number of values.'''
+This is called string concatenation."""
 
-x, y, z = "Orange", "Banana", "Cherry"
+first_name = "Nicola"
+last_name = "Diurno"
 
-print(x)    # Output: Orange
-print(y)    # Output: Banana
-print(z)    # Output: Cherry
+full_name = first_name + " " + last_name
+
+print(full_name)    # Output: Nicola Diurno
 
 
 # ============================================================
-# UNPACKING A COLLECTION
+# NUMBERS AND STRINGS WITH +
 # ============================================================
 
-'''If you have a collection of values, Python allows you to
-extract those values into separate variables.
+"""The + operator behaves differently depending on the data type.
 
-This process is called unpacking.
+With numbers, it performs addition.
+With strings, it joins the values together."""
 
-For example, we can create a list of fruits and unpack each
-value into a different variable:'''
+number_1 = 10
+number_2 = 5
 
-fruits = ["apple", "banana", "cherry"]
+print(number_1 + number_2)    # Output: 15
 
-a, b, c = fruits
+text_1 = "10"
+text_2 = "5"
 
-print(a)    # Output: apple
-print(b)    # Output: banana
-print(c)    # Output: cherry
+print(text_1 + text_2)        # Output: 105
+
+
+# ============================================================
+# COMBINING DIFFERENT DATA TYPES
+# ============================================================
+
+"""Python cannot directly concatenate a string and an integer
+using the + operator.
+
+The number must first be converted to a string using str()."""
+
+name = "Nicola"
+age = 32
+
+print(name + " is " + str(age) + " years old.")
+
+
+# ============================================================
+# USING COMMAS WITH DIFFERENT DATA TYPES
+# ============================================================
+
+"""Another way to print different data types together is to use
+commas inside print().
+
+When commas are used, Python handles the different data types
+automatically, so casting is not required."""
+
+name = "Nicola"
+age = 32
+height = 1.70
+
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+
+
+# ============================================================
+# SUMMARY
+# ============================================================
+
+"""In this file you learned how to:
+
+- Display variables using print().
+- Print multiple variables together.
+- Add numerical values using +.
+- Concatenate strings using +.
+- Understand the difference between addition and concatenation.
+- Convert values using str() when combining different data types.
+- Print different data types together using commas."""
