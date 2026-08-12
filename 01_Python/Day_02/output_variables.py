@@ -112,16 +112,3 @@ print("Age:", age)
 print("Height:", height)
 
 
-# ============================================================
-# SUMMARY
-# ============================================================
-
-"""In this file you learned how to:
-
-- Display variables using print().
-- Print multiple variables together.
-- Add numerical values using +.
-- Concatenate strings using +.
-- Understand the difference between addition and concatenation.
-- Convert values using str() when combining different data types.
-- Print different data types together using commas."""
