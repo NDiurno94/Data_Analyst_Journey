@@ -11,13 +11,13 @@
 A numeric data type is automatically created when a number
 is assigned to a variable."""
 
-x = 1       # int
-y = 2.8     # float
-z = 1j      # complex
+a = 1       # int
+b = 2.8     # float
+c = 1j      # complex
 
-print(x)
-print(y)
-print(z)
+print(a)
+print(b)
+print(c)
 
 
 # ============================================================
@@ -27,13 +27,13 @@ print(z)
 """The type() function can be used to check which numeric
 data type a variable contains."""
 
-x = 1
-y = 2.8
-z = 1j
+d = 1
+e = 2.8
+f = 1j
 
-print(type(x))    # Output: <class 'int'>
-print(type(y))    # Output: <class 'float'>
-print(type(z))    # Output: <class 'complex'>
+print(type(d))    # Output: <class 'int'>
+print(type(e))    # Output: <class 'float'>
+print(type(f))    # Output: <class 'complex'>
 
 
 # ============================================================
@@ -50,17 +50,17 @@ Integers can be:
 
 Python integers can also be very large."""
 
-x = 1
-y = 35656222554887711
-z = -3255522
+g = 1
+h = 35656222554887711
+i = -3255522
 
-print(x)
-print(y)
-print(z)
+print(g)
+print(h)
+print(i)
 
-print(type(x))    # int
-print(type(y))    # int
-print(type(z))    # int
+print(type(g))    # int
+print(type(h))    # int
+print(type(i))    # int
 
 
 # ============================================================
@@ -72,17 +72,17 @@ one or more decimal places.
 
 Floats can be positive or negative."""
 
-x = 1.10
-y = 1.0
-z = -35.59
+l = 1.10
+m = 1.0
+n = -35.59
 
-print(x)
-print(y)
-print(z)
+print(l)
+print(m)
+print(n)
 
-print(type(x))    # float
-print(type(y))    # float
-print(type(z))    # float
+print(type(l))    # float
+print(type(m))    # float
+print(type(n))    # float
 
 
 # ============================================================
@@ -99,17 +99,17 @@ For example:
 12E4 means 12 × 10⁴
 """
 
-x = 35e3
-y = 12E4
-z = -87.7e100
+o = 35e3
+p = 12E4
+q = -87.7e100
 
-print(x)
-print(y)
-print(z)
+print(o)
+print(p)
+print(q)
 
-print(type(x))    # float
-print(type(y))    # float
-print(type(z))    # float
+print(type(o))    # float
+print(type(p))    # float
+print(type(q))    # float
 
 
 # ============================================================
@@ -121,17 +121,17 @@ print(type(z))    # float
 They are written using j to represent the imaginary part
 of the number."""
 
-x = 1j
-y = 3 + 5j
-z = -5j
+r = 1j
+s = 3 + 5j
+t = -5j
 
-print(x)
-print(y)
-print(z)
+print(r)
+print(s)
+print(t)
 
-print(type(x))    # complex
-print(type(y))    # complex
-print(type(z))    # complex
+print(type(r))    # complex
+print(type(s))    # complex
+print(type(t))    # complex
 
 
 # ============================================================
