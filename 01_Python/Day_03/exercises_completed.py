@@ -210,7 +210,11 @@ p = "15"
 
 # Write your code here:
 
+o_1 = int(o)
+p_1 = int(p)
 
+print(o_1, type(o_1))
+print(p_1, type(p_1))
 
 # ============================================================
 # EXERCISE 9 - CASTING TO FLOAT
