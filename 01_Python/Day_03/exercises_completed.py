@@ -25,6 +25,9 @@ Print each variable separately."""
 
 # Write your code here:
 
+from turtle import st
+
+
 my_name = "Nicola Diurno"
 my_age = 32
 my_height = 1.70
@@ -237,6 +240,13 @@ d = "3.5"
 
 # Write your code here:
 
+c_1 = float(c)
+d_1 = float(d)
+
+print(c_1, type(c_1))
+print(d_1, type(d_1))
+
+
 
 
 # ============================================================
@@ -257,6 +267,12 @@ f = 1.70
 
 # Write your code here:
 
+e_1 = str(e)
+f_1 = str(f)
+
+print(e_1, type(e_1))
+print(f_1, type(f_1))
+
 
 
 # ============================================================
@@ -274,6 +290,14 @@ f = 1.70
 Do not overwrite the original variable."""
 
 # Write your code here:
+
+exa = "100"
+
+print(exa, type(exa))
+
+exa_1 = int(exa)
+
+print(exa_1, type(exa_1))
 
 
 
@@ -297,19 +321,26 @@ l = True
 m = None
 
 # Write your predictions here as comments:
-# g:
-# h:
-# i:
-# j:
-# k:
-# l:
-# m:
+# g: int       int
+# h: float     float 
+# i: string    string
+# j:           float 
+# k: complex   complex
+# l: boolean   boolean  
+# m: boolean   NoneType
 
 # Write your type() checks here:
 
+print(type(g))
+print(type(h))
+print(type(i))
+print(type(j))
+print(type(k))
+print(type(l))
+print(type(m))
 
 
-# ============================================================
+# ===========print(type())=================================================
 # EXERCISE 13 - FIX THE CASTING
 # ============================================================
 
@@ -327,8 +358,16 @@ age = "32"
 height = "1.70"
 temperature = "-4.5"
 
+
 # Write your code here:
 
+age_1 = int(age)
+height_1 = float(height)
+temperature_1 = float(temperature)
+
+print(age_1, type(age_1))
+print(height_1, type(height_1))
+print(temperature_1, type(temperature_1))
 
 
 # ============================================================
@@ -350,6 +389,10 @@ user_height = 1.7
 
 # Write your code here:
 
+user_age_1 = str(user_age)
+user_height_1 = str(user_height)
+
+print(first_name, "is " + user_age_1, "years old and is " + user_height_1, "metres tall")
 
 
 # ============================================================
@@ -391,3 +434,32 @@ Requirements:
 Try to complete the challenge without looking at the theory files."""
 
 # Write your code here:
+
+name_1 = "Nicola"
+age_1 = 32
+height_1 = 1.70
+integer = 100
+float_1 = 3.50
+complexx = 5j
+python_learning = True
+
+print(type(name_1))
+print(type(age_1))
+print(type(height_1))
+print(type(integer))
+print(type(float_1))
+print(type(complexx))
+print(type(python_learning))
+
+number = "50"
+
+number_1 = int(number)
+number_2 = float(number)
+
+print(number_1, type(number_1))
+print(number_2, type(number_2))
+
+age_2 = str(age_1)
+height_2 = str(height_1)
+
+print("My name is", name_1 + ", I am", age_2 + " and I am", height_2, "meters tall")
