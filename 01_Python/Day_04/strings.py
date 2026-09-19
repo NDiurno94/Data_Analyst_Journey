@@ -24,7 +24,7 @@ print(type(b))   # str
 appears inside the text."""
 
 c = "It's a beautiful day"
-d = "He said 'Hello'"
+d = 'He said "Hello"'
 
 print(c)
 print(d)
