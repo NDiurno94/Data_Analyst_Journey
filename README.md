@@ -36,7 +36,9 @@ Data_Analyst_Journey/
 │   └── Day_01.../
 ├── 02_SQL/
 │   └── Day_01.../
-└── 03_Excel/
+├── 03_Excel/
+│   └── Day_01.../
+└── 04_Power_BI/
     └── Day_01.../
 ```
 
