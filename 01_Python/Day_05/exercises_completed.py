@@ -22,7 +22,14 @@ Print both values and their data types."""
 
 # Write your code here:
 
+learning_python = True
+finished_course = False
 
+print(learning_python, type(learning_python),
+      "\n", finished_course, type(finished_course)) # will print the False statement below the True, but one space ahead
+
+print(f"{learning_python}, {type(learning_python)} \n"
+      f"{finished_course}, {type(finished_course)}") # but this will actually print both statements one below the other one
 
 # ============================================================
 # EXERCISE 2 - BOOLEAN OR STRING?
@@ -35,9 +42,19 @@ Before running the code, predict whether their types match."""
 
 # Write your prediction as a comment:
 
+# True 'bool'
+# True 'string'
+
 # Write your code here:
 
+a = True
+b = "True"
 
+print(a, type(a))
+print(b, type(b))
+
+print(f"The first {a} is a {type(a)}, \n"
+      f"however, the second {b}, is not a boolean but {type(b)} instead.")
 
 # ============================================================
 # EXERCISE 3 - PREDICT COMPARISONS
@@ -46,23 +63,30 @@ Before running the code, predict whether their types match."""
 """Predict the result of every comparison, then print each one
 to check your answers."""
 
-a = 10 > 5
-b = 10 < 5
-c = 10 == 10
-d = 10 != 10
-e = 7 >= 7
-f = 6 <= 4
+c = 10 > 5
+d = 10 < 5
+e = 10 == 10
+f = 10 != 10
+g = 7 >= 7
+h = 6 <= 4
 
 # Write your predictions as comments:
-# a:
-# b:
-# c:
-# d:
-# e:
-# f:
+# c: True
+# d: False
+# e: True
+# f: False
+# g: True
+# h: False
 
 # Print the variables here:
+print(f"{c} \n"
+      f"{d} \n"
+      f"{e} \n"
+      f"{f} \n"
+      f"{g} \n"
+      f"{h}")
 
+print(c,d,e,f,g,h)
 
 
 # ============================================================
@@ -81,8 +105,9 @@ age = 32
 minimum_age = 18
 
 # Write your code here:
-
-
+print(f"Is age greater than minimum age? {age > minimum_age} \n"
+      f"Is age equal to minimum age? {age == minimum_age} \n"
+      f"Is age not equal to minimum age? {age != minimum_age}")
 
 # ============================================================
 # EXERCISE 5 - COMPARE STRINGS
@@ -101,7 +126,9 @@ second_language = "Python"
 third_language = "python"
 
 # Write your code here:
-
+print(f"Is the first language equal to the second? {first_language == second_language} \n"
+      f"Is the first language equal to the third? {first_language == third_language} \n"
+      f"Is the first languane not equal to the third? {first_language != third_language}")
 
 
 # ============================================================
@@ -120,7 +147,10 @@ Print every Boolean result."""
 sentence = "I am learning Python"
 
 # Write your code here:
-
+print(f"The word Python is present in sentence > {"Python" in sentence} \n"
+      f"The word Java is not present in sentence > {"Java" not in sentence} \n"
+      f"The sentece starts with the letter I > {sentence.startswith("I")} \n"
+      f"The sentence ends with SQL > {sentence.endswith("SQL")}")
 
 
 # ============================================================
@@ -130,18 +160,22 @@ sentence = "I am learning Python"
 """Use bool() to evaluate each value below.
 Predict the result before running the code."""
 
-g = "Nicola"
-h = 32
-i = -5
-j = ["Python", "SQL"]
+i = "Nicola"
+l = 32
+m = -5
+n = ["Python", "SQL"]
 
 # Write your predictions as comments:
-# g:
-# h:
-# i:
-# j:
+# i: True
+# l: True
+# m: True 
+# n: True
 
 # Write your bool() checks here:
+print(bool(i))
+print(bool(l))
+print(bool(m))
+print(bool(n))
 
 
 
@@ -152,14 +186,18 @@ j = ["Python", "SQL"]
 """Use bool() to evaluate each value below.
 Print every result."""
 
-k = ""
-l = 0
-m = 0.0
-n = None
-o = []
+o = ""
+p = 0
+q = 0.0
+r = None
+s = []
 
 # Write your code here:
-
+print(bool(o))
+print(bool(p))
+print(bool(q))
+print(bool(r))
+print(bool(s))
 
 
 # ============================================================
@@ -169,14 +207,16 @@ o = []
 """Use bool() on both variables.
 Predict why their Boolean results are different."""
 
-p = ""
-q = " "
+t = ""
+u = " "
 
 # Write your prediction as a comment:
+'''t results in false as it is an empty string,
+however, u is not false, hence is true, because it is not an empty string due to the space'''
 
 # Write your code here:
-
-
+print(bool(t))
+print(bool(u))
 
 # ============================================================
 # EXERCISE 10 - TRICKY STRING VALUES
@@ -186,16 +226,19 @@ q = " "
 
 Remember that the values below are strings."""
 
-r = "False"
-s = "0"
-t = "None"
+v = "False"
+z = "0"
+x = "None"
 
 # Write your predictions as comments:
-# r:
-# s:
-# t:
+# v: True
+# z: True
+# x: True
 
 # Write your code here:
+print(bool(v))
+print(bool(z))
+print(bool(x))
 
 
 
@@ -217,7 +260,10 @@ value_2 = "200"
 value_3 = 2.5
 
 # Write your code here:
-
+print(isinstance(value_1, int))
+print(isinstance(value_1, str))
+print(isinstance(value_2, str))
+print(isinstance(value_3, float))
 
 
 # ============================================================
@@ -239,6 +285,10 @@ skills = "Python, SQL and Excel"
 username = "Nicola"
 
 # Write your code here:
+print(f"Is temperature greater than 20? {temperature > 20} \n"
+      f"Is city equal to Lausanne? {city == "Lausanne"} \n"
+      f"Is Python present in skills? {"Python" in skills} \n"
+      f"Is username non-empty when evaluated with bool()? {bool(username)}")
 
 
 
@@ -265,3 +315,29 @@ Requirements:
 Do not use an if statement. That topic will be covered later."""
 
 # Write your code here:
+name_1 = "Nicola"
+age_1 = 32
+city_1 = "Lausanne"
+preferred_language = "English"
+currently_studying = True
+
+print(f"The variable name_1 has content? {bool(name_1)}")
+print(f"Is my age greater than 18? {age_1 >= 18}")
+print(f"Is the city_1 equal to Lausanne? {city_1 == "Lausanne"}")
+print(f"Does your preferred language equal to Python? {preferred_language == "Python"}")
+print(f"Does name_1 contains only letter? {name_1.replace(" ", "").isalpha()}")
+print(f"Is age an integer? {isinstance(age_1, int)}")
+
+name_has_content = bool(name_1)
+age_is_at_least_18 = age_1 >= 18
+city_is_lausanne = city_1 == "Lausanne"
+language_is_python = preferred_language == "Python"
+name_contains_only_letters = name_1.replace(" ", "").isalpha()
+age_is_integer = isinstance(age_1, int)
+
+print(f"Does the name have content? {name_has_content}")
+print(f"Is the age at least 18? {age_is_at_least_18}")
+print(f"Is the city Lausanne? {city_is_lausanne}")
+print(f"Is the preferred language Python? {language_is_python}")
+print(f"Does the name contain only letters? {name_contains_only_letters}")
+print(f"Is the age an integer? {age_is_integer}")
