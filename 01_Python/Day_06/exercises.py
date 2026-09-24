@@ -1,220 +1,287 @@
-"""DAY 5 - PYTHON OPERATORS EXERCISES
+# ============================================================
+# DAY 6 - PYTHON OPERATORS EXERCISES
+# ============================================================
 
-Instructions:
-1. Try not to look at the theory files while solving the exercises.
-2. Run the program after every exercise.
-3. Predict the result before running your code.
-4. Read the expected result carefully.
-"""
+"""Complete one exercise at a time. Predict results before running.
+Use the topic files for hints when needed.
+Exercises 1-14 are core practice; 15-16 are optional extensions."""
 
 
 # ============================================================
-# EXERCISE 1 - BASIC ARITHMETIC
+# EXERCISE 1 - ARITHMETIC WARM-UP
 # ============================================================
 
-"""Create two variables containing 24 and 7.
-Print their:
-- sum
-- difference
-- product
-- division result
-"""
+"""Using a = 19 and b = 4, print their sum, difference, product,
+quotient, floor quotient and remainder. Also print a squared.
+Predict all seven results first."""
+
+a = 19
+b = 4
+
+# Write your predictions as comments:
 
 # Write your code here:
 
 
-
 # ============================================================
-# EXERCISE 2 - FLOOR DIVISION AND REMAINDER
+# EXERCISE 2 - PACKING BOXES
 # ============================================================
 
-"""A restaurant has 29 guests and tables that hold 4 people.
-Using operators, print:
-- the number of completely full tables
-- the number of guests left over
+"""You have 38 items. Each box holds 8 items.
+Save and print the number of full boxes and leftover items
+using descriptive f-strings."""
 
-Expected results: 7 and 1.
-"""
+items = 38
+box_size = 8
 
-guests = 29
-table_capacity = 4
+# Write your predictions as comments:
 
 # Write your code here:
 
 
-
 # ============================================================
-# EXERCISE 3 - EXPONENTIATION
+# EXERCISE 3 - EVEN OR ODD?
 # ============================================================
 
-"""Create a variable containing 5.
-Use an operator to print 5 squared.
-Do not write 25 directly.
-"""
+"""Check whether each number is even using % and ==.
+Save each Boolean result and print it."""
+
+first_number = 26
+second_number = 31
+
+# Write your predictions as comments:
 
 # Write your code here:
 
 
-
 # ============================================================
-# EXERCISE 4 - ASSIGNMENT OPERATORS
+# EXERCISE 4 - UPDATE A BALANCE
 # ============================================================
 
-"""Start with score = 10.
-Use assignment operators to:
-- add 5
-- multiply the result by 2
-- subtract 4
-Print the final score.
+"""Start with the balance below. Add 40, subtract 25, then
+multiply the result by 2 using assignment shortcuts. Print
+after each update. Finally divide by 5 with /= and print again."""
 
-Expected result: 26.
-"""
+balance = 100
 
-score = 10
+# Write your predictions as comments:
 
 # Write your code here:
 
 
+# ============================================================
+# EXERCISE 5 - MORE ASSIGNMENT SHORTCUTS
+# ============================================================
+
+"""Starting with number = 29, use //= 4, then **= 2, then %= 6.
+Predict and print the value after every update."""
+
+number = 29
+
+# Write your predictions as comments:
+
+# Write your code here:
+
 
 # ============================================================
-# EXERCISE 5 - COMPARISON OPERATORS
+# EXERCISE 6 - COMPARE RESULTS
 # ============================================================
 
-"""Use the variables below to print whether:
-- age is equal to 32
-- height is greater than 1.65
-- age is not equal to 40
-- height is less than or equal to 1.70
+"""Print whether actual equals target, differs from target,
+is greater, is smaller, is at least target and is at most
+target. Explain why equality matters for >= and <=."""
 
-Each result should be True.
-"""
+actual = 250
+target = 250
+
+# Write your predictions as comments:
+
+# Write your code here:
+
+
+# ============================================================
+# EXERCISE 7 - COMBINE BOOLEAN CHECKS
+# ============================================================
+
+"""Save and print these checks:
+- age is at least 18 AND currently_studying is True
+- currently_studying OR has_experience is True
+- has_experience is NOT True
+Use and, or and not with the supplied Boolean variables."""
 
 age = 32
-height = 1.70
+currently_studying = True
+has_experience = False
+
+# Write your predictions as comments:
 
 # Write your code here:
 
 
+# ============================================================
+# EXERCISE 8 - CHECK A RANGE
+# ============================================================
+
+"""Save and print whether score is between 60 and 100 inclusive.
+Write one version using and and another using a chained
+comparison. Then try score = 100 and score = 101."""
+
+score = 75
+
+# Write your predictions as comments:
+
+# Write your code here:
+
 
 # ============================================================
-# EXERCISE 6 - LOGICAL AND
+# EXERCISE 9 - CHECK MEMBERSHIP
 # ============================================================
 
-"""Print one expression that checks whether age is at least 18
-AND has_passport is True.
+"""Print whether "Python" and "python" are in skills_text,
+whether "Java" is absent, and whether "Py" is in skills_text
+and in skills. Explain the last two results."""
 
-Expected result: True.
-"""
+skills_text = "Python, SQL and Excel"
+skills = ["Python", "SQL", "Excel"]
+
+# Write your predictions as comments:
+
+# Write your code here:
+
+
+# ============================================================
+# EXERCISE 10 - EQUALITY OR IDENTITY?
+# ============================================================
+
+"""Predict and print first == second, first is second,
+first is alias, first is not second and result is None.
+Explain why equal lists need not be the same object."""
+
+first = ["Excel", "SQL"]
+second = ["Excel", "SQL"]
+alias = first
+result = None
+
+# Write your predictions as comments:
+
+# Write your code here:
+
+
+# ============================================================
+# EXERCISE 11 - PREDICT THE ORDER
+# ============================================================
+
+"""Predict and print these expressions:
+- 6 + 4 * 3
+- (6 + 4) * 3
+- 20 - 8 - 2
+- 2 ** 2 ** 3
+- True or False and False
+- (True or False) and False
+Explain which operation is grouped first in each case."""
+
+# Write your predictions as comments:
+
+# Write your code here:
+
+
+# ============================================================
+# EXERCISE 12 - FIND AND FIX THE MISTAKES
+# ============================================================
+
+"""The commented lines below contain mistakes. Write corrected
+versions that check equality, calculate a square and build a
+label. Also correct the range check so both comparisons
+actually test age."""
 
 age = 32
-has_passport = True
+# print(age = 32)
+# print(5 ^ 2)  # Intended: five squared
+# print("Age: " + age)
+# print(age >= 18 and 65)  # Intended: 18 <= age < 65
+
+# Write your predictions as comments:
 
 # Write your code here:
 
 
-
 # ============================================================
-# EXERCISE 7 - LOGICAL OR AND NOT
+# EXERCISE 13 - TRUTHY VALUES AND SAFE DIVISION
 # ============================================================
 
-"""Using the variables below:
-1. Print whether the person speaks Italian OR French.
-2. Use not to print the opposite of is_raining.
+"""Use or to choose "Guest" when username is empty.
+Then save a check that records is nonzero AND total / records
+is greater than 10. Print both results. Explain why the
+division does not cause an error with records = 0."""
 
-Both results should be True.
-"""
+username = ""
+records = 0
+total = 90
 
-speaks_italian = True
-speaks_french = False
-is_raining = False
+# Write your predictions as comments:
 
 # Write your code here:
 
 
-
 # ============================================================
-# EXERCISE 8 - STRING MEMBERSHIP
+# EXERCISE 14 - FINAL DAY 6 CHALLENGE - SALES REPORT
 # ============================================================
 
-"""Without typing True or False directly, print whether:
-- "Data" is inside the course string
-- "Java" is not inside the course string
+"""Create a sales report using the supplied data.
 
-Both results should be True.
-"""
+1. Calculate revenue, total cost and profit.
+2. Calculate average revenue per order (orders is nonzero here).
+3. Check whether revenue is at least target.
+4. Check whether profit is positive AND the target is reached.
+5. Check whether region equals "Lausanne" OR "Geneva".
+   Compare region explicitly on both sides of or.
+6. Check whether "Python" is present in skills.
+7. Save every result in a descriptive variable.
+8. Print all results using labelled f-strings. Display monetary
+   values with two decimal places using :.2f.
 
-course = "Python for Data Analysis"
+Use only variables, operators and print(). No if statements,
+loops or functions are needed."""
+
+units_sold = 35
+unit_price = 18
+cost_per_unit = 11
+orders = 7
+target = 600
+region = "Lausanne"
+skills = "Python, SQL and Excel"
+
+# Write your predictions as comments:
 
 # Write your code here:
 
 
-
 # ============================================================
-# EXERCISE 9 - LIST MEMBERSHIP
+# EXERCISE 15 - OPTIONAL - NEGATIVE FLOOR DIVISION
 # ============================================================
 
-"""Using membership operators, print whether:
-- "Python" is in skills
-- "Excel" is not in skills
-"""
+"""Predict and print -19 // 4 and -19 % 4.
+Check that quotient * 4 + remainder reconstructs -19.
+Also compare -4 ** 2 with (-4) ** 2."""
 
-skills = ["Python", "Git", "Mathematics"]
+# Write your predictions as comments:
 
 # Write your code here:
 
 
-
 # ============================================================
-# EXERCISE 10 - EQUALITY AND IDENTITY
+# EXERCISE 16 - OPTIONAL - BITWISE PRACTICE
 # ============================================================
 
-"""Print the result of comparing list_1 and list_2 with:
-- ==
-- is
+"""Using a = 5 (0101) and b = 3 (0011), predict and print
+a & b, a | b, a ^ b, ~a, a << 1 and a >> 1.
+Explain why ^ does not calculate a power."""
 
-Before running the file, predict why the results are different.
-"""
+a = 5
+b = 3
 
-list_1 = [10, 20, 30]
-list_2 = [10, 20, 30]
+# Write your predictions as comments:
 
 # Write your code here:
 
-
-
-# ============================================================
-# EXERCISE 11 - OPERATOR PRECEDENCE
-# ============================================================
-
-"""Print the two expressions below:
-- 5 + 3 * 2
-- (5 + 3) * 2
-
-Predict both results before running the code.
-"""
-
-# Write your code here:
-
-
-
-# ============================================================
-# EXERCISE 12 - MINI CHALLENGE
-# ============================================================
-
-"""A candidate qualifies when:
-- years_experience is at least 2
-AND
-- they know Python OR SQL
-
-Create one expression using comparison and logical operators.
-Store the result in qualifies and print it.
-
-Expected result: True.
-"""
-
-years_experience = 3
-knows_python = True
-knows_sql = False
-
-# Write your code here:
 
