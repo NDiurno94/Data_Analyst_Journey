@@ -18,9 +18,13 @@ profit = revenue - total_cost
 target_reached = revenue >= sales_target
 successful_local_day = target_reached and region == "Lausanne"
 
-print(f"Revenue: {revenue:.2f}")                  # Revenue: 360.00
-print(f"Profit: {profit:.2f}")                    # Profit: 144.00
-print(f"Target reached: {target_reached}")        # Target reached: True
-print(f"Successful local day: {successful_local_day}")  # True
+print(f"Initial investment: {total_cost:.2f} CHF for 24 units")
+print(f"Revenue: {revenue:.2f}")                                        # Revenue: 360.00
+print(f"Profit: {profit:.2f}")                                          # Profit: 144.00
+print(f"Target reached: {target_reached}")                              # Target reached: True
+print(f"Successful local day: {successful_local_day}")                  # True
 
-
+print(f"We bought 24 units in {region}, for {cost_per_unit} CHF/unit for a total of {total_cost} CHF \n"
+      f"The goal was to reach a profit of {sales_target} CHF \n"
+      f"To be able to do that, we sold each unit for {unit_price} CHF, for a revenue of {revenue} CHF \n"
+      f"Therefore, we managed to reach a profit of {profit} CHF in few days")

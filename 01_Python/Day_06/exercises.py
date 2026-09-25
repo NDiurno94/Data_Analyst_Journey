@@ -4,7 +4,7 @@
 
 """Complete one exercise at a time. Predict results before running.
 Use the topic files for hints when needed.
-Exercises 1-14 are core practice; 15-16 are optional extensions."""
+Exercises 1-14 are core practice; 15 optional extensions."""
 
 
 # ============================================================
@@ -17,8 +17,6 @@ Predict all seven results first."""
 
 a = 19
 b = 4
-
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -34,7 +32,6 @@ using descriptive f-strings."""
 items = 38
 box_size = 8
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -49,7 +46,6 @@ Save each Boolean result and print it."""
 first_number = 26
 second_number = 31
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -64,7 +60,6 @@ after each update. Finally divide by 5 with /= and print again."""
 
 balance = 100
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -78,7 +73,6 @@ Predict and print the value after every update."""
 
 number = 29
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -94,7 +88,6 @@ target. Explain why equality matters for >= and <=."""
 actual = 250
 target = 250
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -113,7 +106,6 @@ age = 32
 currently_studying = True
 has_experience = False
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -128,7 +120,6 @@ comparison. Then try score = 100 and score = 101."""
 
 score = 75
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -144,7 +135,6 @@ and in skills. Explain the last two results."""
 skills_text = "Python, SQL and Excel"
 skills = ["Python", "SQL", "Excel"]
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -162,7 +152,6 @@ second = ["Excel", "SQL"]
 alias = first
 result = None
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -180,7 +169,6 @@ result = None
 - (True or False) and False
 Explain which operation is grouped first in each case."""
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -200,7 +188,6 @@ age = 32
 # print("Age: " + age)
 # print(age >= 18 and 65)  # Intended: 18 <= age < 65
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -218,7 +205,6 @@ username = ""
 records = 0
 total = 90
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -251,7 +237,6 @@ target = 600
 region = "Lausanne"
 skills = "Python, SQL and Excel"
 
-# Write your predictions as comments:
 
 # Write your code here:
 
@@ -264,24 +249,8 @@ skills = "Python, SQL and Excel"
 Check that quotient * 4 + remainder reconstructs -19.
 Also compare -4 ** 2 with (-4) ** 2."""
 
-# Write your predictions as comments:
 
 # Write your code here:
 
-
-# ============================================================
-# EXERCISE 16 - OPTIONAL - BITWISE PRACTICE
-# ============================================================
-
-"""Using a = 5 (0101) and b = 3 (0011), predict and print
-a & b, a | b, a ^ b, ~a, a << 1 and a >> 1.
-Explain why ^ does not calculate a power."""
-
-a = 5
-b = 3
-
-# Write your predictions as comments:
-
-# Write your code here:
 
 

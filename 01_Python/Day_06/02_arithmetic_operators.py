@@ -2,9 +2,13 @@
 # ARITHMETIC OPERATORS
 # ============================================================
 
-"""+   addition          -   subtraction
-*   multiplication    /   division
-//  floor division    %   remainder (modulo)
+"""
++   addition          
+-   subtraction
+*   multiplication    
+/   division
+//  floor division    
+%   remainder (modulo)
 **  exponentiation (power)
 
 For integer operands, / still returns a float.
@@ -29,7 +33,8 @@ print(20 / 5)  # 4.0
 # ============================================================
 
 """Imagine packing 23 items into boxes that each hold 6 items.
-// gives the number of full boxes; % gives the leftover items.
+// gives the number of full boxes; 
+% gives the leftover items.
 
 Floor division rounds DOWN, towards negative infinity.
 It does not simply remove the decimal part.
@@ -42,7 +47,7 @@ print(items % box_size)   # 5
 print(-17 // 5)           # -4
 print(-17 % 5)            # 3: (-4 * 5) + 3 equals -17
 
-"""A number is even when division by 2 leaves no remainder."""
+"""A number is EVEN when division by 2 leaves no remainder."""
 
 print(14 % 2 == 0)  # True
 print(15 % 2 == 0)  # False
